@@ -19,5 +19,11 @@ In terms of programming; obfuscation is used to refer to the act of intentionall
 Obfuscation, can be seen everywhere, from desktop applications using Themeda to web applications using obfuscator.io.
 These techniques are used to intentionally make anaylsis incredibly difficult, this is highly problematic for security research, privacy analysis and debugging, and for control over your own device in general.
 
+## Challenges
+Each of the chapters will have at least 1 flag formatted as `flag{FL4G_H3RE}`, you can submit the md5 hash of the flag to be added to the winners section.
+
+## Winners
+- No one yet ;)
+
 ## Support
 Join the [discord](https://discord.gg/z2r8e8neQ7)
