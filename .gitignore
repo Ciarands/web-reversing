@@ -2,4 +2,5 @@ TODO
 *.py
 *.js
 *.json
+*.html
 node_modules
