@@ -1,12 +1,28 @@
 # Steps to defeat:
-1. Step 1
->! Get all decryption function calls through AST parsing or regex `/_0x5630f6f4f99af80a\("([^"]+|)"\)/gm`.
-2. Step 2
->! Replace all encrypted strings with their decrypted counterpart.
-3. Step 3
->! Apply patch to generate flag.
-4. Step 4
->! Evaluate the code.
+
+<details>
+  <summary>Step 1</summary>
+  
+  Get all decryption function calls through AST parsing or regex `/_0x5630f6f4f99af80a\("([^"]+|)"\)/gm`.
+</details>
+
+<details>
+  <summary>Step 2</summary>
+  
+  Replace all encrypted strings with their decrypted counterpart.
+</details>
+
+<details>
+  <summary>Step 3</summary>
+  
+  Apply patch to generate flag.
+</details>
+
+<details>
+  <summary>Step 4</summary>
+  
+  Evaluate the code.
+</details>
 
 ```js
 function _0x5630f6f4f99af80a(_0x7a1bcd3de8b2334c) {
