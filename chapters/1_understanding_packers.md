@@ -1,9 +1,3 @@
----
-layout: default
-title: Understanding Packers
-permalink: /chapters/1_understanding_packers
----
-
 # Analysing Dean Edwards packer
 Dean Edwards Packer is a JavaScript code compression tool that reduces the size of your code by removing unnecessary whitespace and anything reused. 
 Although this is arguably not obfuscation, the output is incredibly unreadable, and it's a great starting point to get used to analysing hard-to-read code.
