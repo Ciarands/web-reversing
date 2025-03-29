@@ -1,0 +1,24 @@
+title: Web Reversing Guide
+description: A comprehensive guide to web application reverse engineering
+baseurl: ""
+url: ""
+
+markdown: kramdown
+theme: mocha
+
+collections:
+  chapters:
+    output: true
+    permalink: /:collection/:path/
+
+navigation:
+  - title: Home
+    url: /
+  - title: Getting Started
+    url: /chapters/0_getting_started
+  - title: Understanding Packers
+    url: /chapters/1_understanding_packers
+  - title: Intro to Transformation & Obfuscation
+    url: /chapters/2_intro_to_transformation_obfuscation
+  - title: Defeating Anti-Tampering
+    url: /chapters/3_defeating_anti_tampering 
