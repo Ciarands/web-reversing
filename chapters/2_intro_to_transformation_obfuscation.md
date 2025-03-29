@@ -82,6 +82,7 @@ window.addEventListener('load', initApp);
 ```
 
 ### 4. Proxying functions
+
 > Original:
 ```js
 function greet(user) {
