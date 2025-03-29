@@ -65,9 +65,7 @@ preimagedHashFunc();
 ```
 
 ## Self-referential logic 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-/// TODO /// FINISH SELF REFERENCING TRANSFORMER /// TODO ///
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+TODO: // Finish self referencing transformer
 
 ## Challenge
 Slightly big file:

@@ -115,9 +115,7 @@ _0x123("user");
 ```
 
 ## Deobfuscation via analysis
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-/// TODO /// EXPAND ON THIS /// TODO ///
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+TODO: // Expand on this
 
 Static Analysis:
 - Use beautifiers (JSBeautifier, Prettier)
