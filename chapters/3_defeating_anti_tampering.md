@@ -463,5 +463,5 @@ function וכתותי(躓,盠,腶,雂,胄){return 躓/盠;};function ומחית�
 ---
 
 <p align="center">
-  <a href="https://ciarands.github.io/web-reversing/chapters/2_intro_to_transformation_obfuscation">← Previous Chapter</a> 
+  <a href="/web-reversing/chapters/2_intro_to_transformation_obfuscation">← Previous Chapter</a> 
 </p>

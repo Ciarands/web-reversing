@@ -12,10 +12,10 @@ This guide is aimed at individuals with intermediate web literacy, you are expec
 
 ## Table of Contents
 
-1. [Getting Started](https://ciarands.github.io/web-reversing/chapters/0_getting_started) - Introduction and setup
-2. [Understanding Packers](https://ciarands.github.io/web-reversing/chapters/1_understanding_packers) - Learn about web application packers
-3. [Intro to Transformation & Obfuscation](https://ciarands.github.io/web-reversing/chapters/2_intro_to_transformation_obfuscation) - Basic transformation techniques
-4. [Defeating Anti-Tampering](https://ciarands.github.io/web-reversing/chapters/3_defeating_anti_tampering) - Advanced techniques for bypassing protections
+1. [Getting Started](/web-reversing/chapters/0_getting_started) - Introduction and setup
+2. [Understanding Packers](/web-reversing/chapters/1_understanding_packers) - Learn about web application packers
+3. [Intro to Transformation Obfuscation](/web-reversing/chapters/2_intro_to_transformation_obfuscation) - Basic transformation techniques
+4. [Defeating Anti-Tampering](/web-reversing/chapters/3_defeating_anti_tampering) - Advanced techniques for bypassing protections
 
 ## Challenges
 Each of the chapters will have at least 1 flag formatted as `flag{FL4G_H3RE}`, you can submit the md5 hash of the flag to be added to the winners section.

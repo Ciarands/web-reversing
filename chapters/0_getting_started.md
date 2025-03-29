@@ -28,6 +28,6 @@ You can test this on https://blog.aepkill.com/demos/devtools-detector/.
 ---
 
 <p align="center">
-  <a href="https://ciarands.github.io/web-reversing/">← Previous Chapter</a> |
-  <a href="https://ciarands.github.io/web-reversing/chapters/1_understanding_packers">Next Chapter →</a>
+  <a href="/web-reversing/">← Previous Chapter</a> |
+  <a href="/web-reversing/chapters/1_understanding_packers">Next Chapter →</a>
 </p>
