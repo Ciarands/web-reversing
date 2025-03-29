@@ -3,7 +3,7 @@ This guide is aimed at individuals with intermediate web literacy, you are expec
 
 ## What is obfuscation?
 `noun` obfuscation 
-> "The act or process of obfuscating, or obscuring the perception of something; the concept of concealing the meaning of a communication by making it more confusing and harder to interpret. "
+> "The act or process of obfuscating, or obscuring the perception of something; the concept of concealing the meaning of a communication by making it more confusing and harder to interpret."
 
 ## Pre-requisites 
 - Node.js
