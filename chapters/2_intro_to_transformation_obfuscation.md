@@ -326,3 +326,10 @@ try {
   
   Evaluate the code.
 </details>
+
+---
+
+<p align="center">
+  <a href="https://ciarands.github.io/web-reversing/chapters/1_understanding_packers">← Previous Chapter</a> |
+  <a href="https://ciarands.github.io/web-reversing/chapters/3_defeating_anti_tampering">Next Chapter →</a>
+</p>
