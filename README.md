@@ -1,8 +1,3 @@
----
-layout: default
-title: Home
----
-
 # Defeating web-application obfuscation
 This guide is aimed at individuals with intermediate web literacy, you are expected to understand certain fundemental concepts, which will not be explained within the guide.
 All techniques shown will be framed from the perspective of web-scraping, if you are not familiar with this field I would suggest Blatzar's [scraping-tutorial](https://github.com/Blatzar/scraping-tutorial/tree/master), this is a perfect starting point.
@@ -27,14 +22,14 @@ These techniques are used to intentionally make anaylsis incredibly difficult, t
 
 ## Getting Started
 
-Begin your journey by reading the [Getting Started](/chapters/0_getting_started) chapter, which will introduce you to the fundamental concepts and tools you'll need.
+Begin your journey by reading the [Getting Started](https://ciarands.github.io/web-reversing/chapters/0_getting_started) chapter, which will introduce you to the fundamental concepts and tools you'll need.
 
 ## Table of Contents
 
-1. [Getting Started](/chapters/0_getting_started) - Introduction and setup
-2. [Understanding Packers](/chapters/1_understanding_packers) - Learn about web application packers
-3. [Intro to Transformation & Obfuscation](/chapters/2_intro_to_transformation_obfuscation) - Basic transformation techniques
-4. [Defeating Anti-Tampering](/chapters/3_defeating_anti_tampering) - Advanced techniques for bypassing protections
+1. [Getting Started](https://ciarands.github.io/web-reversing/chapters/0_getting_started) - Introduction and setup
+2. [Understanding Packers](https://ciarands.github.io/web-reversing/chapters/1_understanding_packers) - Learn about web application packers
+3. [Intro to Transformation & Obfuscation](https://ciarands.github.io/web-reversing/chapters/2_intro_to_transformation_obfuscation) - Basic transformation techniques
+4. [Defeating Anti-Tampering](/https://ciarands.github.io/web-reversing/chapters/3_defeating_anti_tampering) - Advanced techniques for bypassing protections
 
 ## Challenges
 Each of the chapters will have at least 1 flag formatted as `flag{FL4G_H3RE}`, you can submit the md5 hash of the flag to be added to the winners section.

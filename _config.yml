@@ -3,13 +3,9 @@ description: A comprehensive guide to web application reverse engineering
 baseurl: ""
 url: ""
 
-markdown: kramdown
-theme: mocha
-
-collections:
-  chapters:
-    output: true
-    permalink: /:collection/:path/
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
+- jekyll-remote-theme
 
 navigation:
   - title: Home
@@ -21,4 +17,4 @@ navigation:
   - title: Intro to Transformation & Obfuscation
     url: /chapters/2_intro_to_transformation_obfuscation
   - title: Defeating Anti-Tampering
-    url: /chapters/3_defeating_anti_tampering 
+    url: /chapters/3_defeating_anti_tampering
