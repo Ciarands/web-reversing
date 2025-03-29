@@ -1,0 +1,147 @@
+:root {
+    --mocha-bg: #1a1a1a;
+    --mocha-text: #d4be98;
+    --mocha-accent: #89b4fa;
+    --mocha-surface: #2d2d2d;
+    --mocha-border: #3d3d3d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: var(--mocha-text);
+    background-color: var(--mocha-bg);
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: var(--mocha-surface);
+    padding: 2rem;
+    border-right: 1px solid var(--mocha-border);
+}
+
+.sidebar-header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--mocha-accent);
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    margin-bottom: 0.5rem;
+}
+
+.nav-links a {
+    color: var(--mocha-text);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.nav-links a:hover {
+    background-color: var(--mocha-border);
+}
+
+.nav-links a.active {
+    background-color: var(--mocha-accent);
+    color: var(--mocha-bg);
+}
+
+.content {
+    flex: 1;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+article {
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--mocha-accent);
+    margin: 1.5rem 0 1rem;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: var(--mocha-accent);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+code {
+    background-color: var(--mocha-surface);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: 'Fira Code', monospace;
+}
+
+pre {
+    background-color: var(--mocha-surface);
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    margin: 1rem 0;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--mocha-border);
+}
+
+.pagination a {
+    padding: 0.5rem 1rem;
+    background-color: var(--mocha-surface);
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.pagination a:hover {
+    background-color: var(--mocha-border);
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid var(--mocha-border);
+    }
+    
+    .content {
+        padding: 1rem;
+    }
+} 
