@@ -301,7 +301,7 @@ try {
 }
 ```
 
-# Steps to defeat (spoilers):
+# Clues to defeat (spoilers):
 
 <details>
   <summary>Step 1</summary>
@@ -318,13 +318,7 @@ try {
 <details>
   <summary>Step 3</summary>
   
-  Apply patch to generate flag.
-</details>
-
-<details>
-  <summary>Step 4</summary>
-  
-  Evaluate the code.
+  Apply a patch to generate flag.
 </details>
 
 ---
