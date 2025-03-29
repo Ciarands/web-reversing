@@ -43,10 +43,13 @@ Development Cost:
 ## A few examples of possible transformation techniques
 ### 1. String Splitting and Concatenation
 > Original:
+
 ```js
 const API_ENDPOINT = 'https://api.example.com/v1/login';
 ```
+
 > Obfuscated:
+
 ```js
 const _0xad = ['htt','v1','api.ex','.c','in', 'ps:','ample', '/','om','log'].reverse();
 const API_ENDPOINT = _0xad[9] + _0xad[4] + _0xad[2] + _0xad[2] + _0xad[7] + _0xad[3] + _0xad[6] + _0xad[1] + _0xad[2] + _0xad[8] + _0xad[2] + _0xad[0] + _0xad[5];
@@ -63,6 +66,7 @@ function processData(data) {
 
 ### 3. Convoluting arbitrary code
 Lets say we wanted to load the following function via an EventListenter.
+
 ```js
 const initApp = function() { console.log("Hello world!") };
 ```
@@ -82,8 +86,8 @@ window.addEventListener('load', initApp);
 ```
 
 ### 4. Proxying functions
-
 > Original:
+
 ```js
 function greet(user) {
   console.log("Hello " + user + "!")
@@ -93,6 +97,7 @@ greet("user")
 ```
 
 > Obfuscated:
+
 ```js
 function _0x12345(a, b, c) {
   return b + a + c; 
