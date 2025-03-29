@@ -1,3 +1,9 @@
+---
+layout: default
+title: Intro to Transformation & Obfuscation
+permalink: /chapters/2_intro_to_transformation_obfuscation
+---
+
 # Intro to transformation obfuscation / source uglification
 Transformation obfuscation/source uglification is a particular subset of obfuscation in which we only really modify the structure of the code; without taking advantage of virtualisation or similar techniques.
 Although this might sound relatively simplistic, when exploiting language-specific quirks, this can result in some reasonably hard to analyse code.

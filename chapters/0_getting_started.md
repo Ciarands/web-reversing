@@ -1,3 +1,9 @@
+---
+layout: default
+title: Getting Started
+permalink: /chapters/0_getting_started
+---
+
 # Configuring your environment
 
 In order to get started reverse engineering (RE) websites, we will often need to bypass a number of detection vectors. 

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Intro to Transformation & Obfuscation
+permalink: /chapters/3_defeating_anti_tampering
+---
+
 # Defeating Anti-Tampering Mechanisms
 Now that we have been introduced to transformation obfuscation, you may have noticed that its still possible to analyse and modify the code, defeating any transformations that have taken place.
 Good obfuscators don't like it when we modify the code, lets discuss some ways they may try to prevent us from manipulating/analysing the code.
